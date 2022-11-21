@@ -1,0 +1,13 @@
+{
+  "vite": {
+    "build": {
+      "rollupOptions": {
+        "external": ["@alifd/next", "react", "react-dom", "moment"]
+      }
+    }
+  },
+  "externals": {
+    "react": "react"
+  },
+  "plugins": []
+}
